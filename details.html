@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Details page</title>
+        <link rel="stylesheet" href="./details.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div>
+            <h1>A Simple IPL App</h1>
+            </div>
+            <div>
+                <form>
+                <div class="search-wrapper">
+                <input id="search-box" type="text" placeholder="Enter team Name"/>
+                <i id="search-icon" class="fas fa-search"></i>
+                <input class="btn-search" type="submit" value="Search"/>
+                </div>
+                </form>
+            </div>
+            <div>
+            <button id="btn-addnew">Add New Team</button>
+            </div>
+        </div>
+
+
+        <div>
+            <h1 id="main-heading">Kolkata Night Riders(KKR)</h1>
+            <div class="front-total">
+                <div class="front-poster">
+                    <img id="front-poster-pic" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/09/12/924640-924485-twitter-3.jpg">
+                </div>
+                <div class="front-details">
+                    <h2>Number of players:<span id="player-details">  </span></h2>
+                    <h3>Top Batsman: <span id="batsman-details"> Gautam Gambhir </span> </h3>
+                    <h3>Top Bowler: <span id="bowler-details"> Sunil Narine</span> </h3>
+                    <h3>Championship Won Count:<span id="won-details"> 2 </span></h3>
+                </div>
+            </div>
+            <div id="players-list-div">
+                <h2>Players list:</h2>
+                <div id="All-players">
+                    <!-- <div class="player-details">
+                        <a class="link" href="#">
+                        <img src="https://www.kkr.in/static-assets/images/players/2020/3823.png?v=2.4&w=200"/>
+                        <h4>EOIN MORGAN</h4>
+                        <h3>KKR</h3>
+                        <h3>Price: 3.0 Cr</h3>
+                        <h3>Playing Status: Playing</h3>
+                        <h3>Role: Batsman</h3>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script src="./details.js"></script>
+    </body>
+
+</html>

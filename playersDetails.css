@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    /* background-color: #C7EEF5; */
+    background-image: linear-gradient(to right, lightcoral,lightblue);
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px transparent;
+    /* background-color: #55BDCA; */
+    background-color:lightblue ;
+}
+#header h1{
+    font-family: 'Otomanopee One', sans-serif;
+    color:#022249;
+}
+#search-box{
+    width: 400px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+.search-wrapper{
+    position: relative;
+}
+#search-icon{
+    color: red;
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
+}
+.btn-search{
+    padding: 10px 24px 8px 24px;
+    border: none;
+    border-radius: 12px;
+    background-color: #F07C41;
+    color: #022249;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#btn-addnew{
+    padding: 10px 24px 8px 24px;
+    border: none;
+    border-radius: 12px;
+    background-color: #F07C41;
+    color: #022249;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#player-image{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 24px;
+}
+.total-detail{
+    display: flex;
+}
+#main-heading{
+    font-family: 'Otomanopee One', sans-serif;
+    color:#022249;
+    margin-left: 50px;
+}
+.players-detail h3{
+    color: #022249;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    font-size: 25px
+}
+.players-detail p{
+    color: #F07C41;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+}
+.players-detail h4{
+    color: #022249;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    font-weight: 900;
+}
+#team-name{
+    color: #F07C41;
+    font-size: 30px;
+}
+#player-price{
+    color: #F07C41;
+}
+#player-status{
+    color: #F07C41;
+}
+#player-role{
+    color: #F07C41;
+}
+#team-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}

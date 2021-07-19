@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IPL team app</title>
+        <link rel="stylesheet" href="./home.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+        <div>
+        <h1>A Simple IPL App</h1>
+        </div>
+        <div>
+            <form>
+            <div class="search-wrapper">
+            <input id="search-box" type="text" placeholder="Enter team Name" onkeyup="searchFun()"/>
+            <i id="search-icon" class="fas fa-search"></i>
+            <input class="btn-search" type="submit" value="Search"/>
+            </div>
+            </form>
+        </div>
+        <div>
+        <button id="btn-addnew">Add New Team</button>
+        </div>
+        </div>
+
+        <div>
+            <div id="teams-div">
+                <h1 class="body-heading">IPL team List 2021</h1>
+                <!-- <div class="single-team">
+                <a class="link" href="#">
+                <div class="individual-team">
+                <div class="team-pic-div">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png"/>
+                </div>   
+                <h1>Team : Kolkata Night Riders(KKR)</h1>
+                </div>
+                </a>
+                </div> -->
+            </div>
+        </div>
+        <script src="./home.js"></script>
+    </body>
+    
+</html>

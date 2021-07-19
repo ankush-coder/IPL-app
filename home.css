@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    /* background-color: #C7EEF5; */
+    background-image: linear-gradient(to right, lightcoral,lightblue);
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px transparent;
+    /* background-color: #55BDCA; */
+    background-color:lightblue ;
+}
+#header h1{
+    font-family: 'Otomanopee One', sans-serif;
+    color:#022249;
+}
+#search-box{
+    width: 400px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+.search-wrapper{
+    position: relative;
+}
+#search-icon{
+    color: red;
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
+}
+.btn-search{
+    padding: 10px 24px 8px 24px;
+    border: none;
+    border-radius: 12px;
+    background-color: #F07C41;
+    color: #022249;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#btn-addnew{
+    padding: 10px 24px 8px 24px;
+    border: none;
+    border-radius: 12px;
+    background-color: #F07C41;
+    color: #022249;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.team-pic-div{
+    background-color: white;
+    /* width: 70px; */
+    margin: 5px ;
+    border-radius: 10px;
+    width: 60px;
+}
+.individual-team img{
+    width: 50px;
+    height: 70px;
+    margin-left: 5px;
+}
+.individual-team h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #022249;
+    margin-left: 24px;
+}
+.individual-team{
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255,0.3);
+}
+.link{
+    text-decoration: none;
+}
+
+.body-heading{
+    font-family: 'Otomanopee One', sans-serif;
+    color:#022249;
+    text-align: center;
+}
